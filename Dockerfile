@@ -1,5 +1,4 @@
-# Uses an older base image with known CVEs
-FROM python:3.7-slim
+FROM python:3.11-alpine
 
 WORKDIR /app
 COPY app.py .
